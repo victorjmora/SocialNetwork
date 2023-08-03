@@ -5,6 +5,7 @@ const {
   = require('../../controllers/userController');
 
 // Routes for getting all users and creating a new user. //
+// /api/users
 router.route('/')
 .get(getAllUsers) // Get all //
 .post(createUser); // Create //
